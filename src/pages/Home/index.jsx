@@ -2,6 +2,7 @@ import Navbar from '../../components/Navbar';
 import { Link } from 'react-router-dom';
 import './home.css';
 
+
 const Home = () => {
   return (
     <div className="main-container">
@@ -128,5 +129,6 @@ const Home = () => {
     </div>
   );
 };
+
 
 export default Home;
